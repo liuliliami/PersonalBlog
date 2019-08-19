@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 20px;
+}
+.link {
+    border: 1px solid #eee;
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.link a{
+    color: #333;
+    font-size: 12px;
+}
+.blog_list {
+    border: 1px solid #eee;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog_list span {
+    display: block;
+    padding: 10px 0;
+}
+.blog_list ul {
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    margin: 10px auto;
+}
+.blog_list ul li {
+    margin-top: 5px;
+}
+.blog_list ul li a{
+    color: #191818;
+    cursor: pointer;
+    font-weight: 400;
+}

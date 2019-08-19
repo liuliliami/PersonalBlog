@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "myIcon";
+    src: url("../font/glyphicons-halflings-regular.woff2");
+}
+body {
+    background-image: url("../img/bg.jpg");
+    position: relative;
+    text-align: center;
+}
+a,ul,li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/*顶部*/
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #191818;
+}
+.container {
+    position: relative;
+    width: 1180px;
+    height: 50px;
+    margin: 0 auto;
+}
+.container .title{
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #eee;
+}
+.container li{
+    display: inline-block;
+    width: 58px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.container li a{
+    color: #eee;
+}
+.container li a:hover {
+    color: #aaa;
+}
+.container .search{
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 50px;
+    width: 270px;
+    line-height: 50px;
+}
+.container .search input{
+    position: absolute;
+    padding-left: 5px;
+    box-sizing: border-box;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+}
+.container .search button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 60px;
+    height: 35px;
+    color: #444;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*中间区域*/
+.content {
+    display: inline-block;
+    position: relative;
+    width: 1170px;
+    margin: 30px auto 0;
+}
+/*左侧列表区*/
+.content_left {
+    float: left;
+    width: 66%;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+}
+/*右侧列表区*/
+.content_right {
+    float: right;
+    width: 34%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.content_right a {
+    color: white;
+}
+/*右侧模块*/
+.right_module {
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: #1f1f1f;
+    overflow: hidden;
+}
+.right_module .title {
+    background-color: black;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+.tags a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.hots ul li{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 1px solid #333;
+}
+.hots ul li a{
+    color: white;
+    font-size: 13px;
+}
+.commends ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+.commends ul li .info {
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+}
+.commends ul li .info span {
+    color: white;
+    font-size: 13px;
+}
+.commends ul li .info .time {
+    position: absolute;
+    right: 15px;
+}
+.commends ul li p {
+    font-size: 13px;
+    color: #777;
+    text-align: left;
+    padding-left: 20px;
+}
+.link {
+    width: 100%;
+    text-align: left;
+}
+.link span {
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+    text-align: left;
+}
+.link span a{
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #191818;
+    text-align: center;
+    padding: 20px;
+}
+.footer ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+.footer ul li {
+    display: inline-block;
+    color: #a2a2a2;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.footer p {
+    text-align: center;
+    color: #a2a2a2;
+    font-size: 14px;
+    padding: 10px;
+}
